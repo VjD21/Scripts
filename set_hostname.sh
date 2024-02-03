@@ -11,4 +11,10 @@ elif [ "$current_hostname" == "ip-192-168-2-11" ]; then
 elif [ "$current_hostname" == "ip-192-168-2-12" ]; then
     sudo hostnamectl set-hostname worker2.vijaydurai21.site
 
+elif [ "$current_hostname" == "ip-192-168-2-21" ]; then
+    sudo hostnamectl set-hostname worker1.vijaydurai21.site
+
+elif [ "$current_hostname" == "ip-192-168-2-22" ]; then
+    sudo hostnamectl set-hostname worker2.vijaydurai21.site
+
 fi
